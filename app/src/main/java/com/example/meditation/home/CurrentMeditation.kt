@@ -1,6 +1,9 @@
 package com.example.meditation.home
 
+import android.widget.Toast
+import android.widget.Toast.LENGTH_SHORT
 import androidx.compose.foundation.background
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -21,6 +24,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.colorResource
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
@@ -28,6 +32,7 @@ import com.example.meditation.R
 
 @Composable
 fun CurrentMeditation() {
+    val context = LocalContext.current
     Row (
         modifier = Modifier
             .padding(15.dp)
@@ -60,6 +65,9 @@ fun CurrentMeditation() {
 
         Box(
             Modifier.size(40.dp)
+                .clickable{
+                    Toast.makeText(context,"Do Meditation", LENGTH_SHORT).show()
+                }
                 .clip(CircleShape)
                 .background(Color.Magenta)
                 .padding(10.dp),
