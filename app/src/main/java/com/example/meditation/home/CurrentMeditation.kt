@@ -77,10 +77,10 @@ fun CurrentMeditation() {
             Alignment.Center
         ){
             Icon(
-                painter = painterResource(R.drawable.play),
+                painter = painterResource(R.drawable.ic_play),
                 "Play Icon",
                 tint = Color.White,
-                modifier = Modifier.size(40.dp)
+                modifier = Modifier.size(32.dp)
             )
         }
     }
