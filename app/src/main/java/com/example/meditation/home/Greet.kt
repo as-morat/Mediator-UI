@@ -37,15 +37,15 @@ fun Greet(
         ) {
             Text("Good Morning $name",
                 style = MaterialTheme.typography.h2.copy(
-                    colorResource(R.color.deep_purple)
+                    colorResource(R.color.deep_purple_medium)
                 )
             )
             Spacer(modifier = Modifier.height(5.dp))
             Text("Wish you have a good day !!",
                 style = MaterialTheme.typography.bodySmall.copy(
                     brush = Brush.linearGradient(listOf(
-                        colorResource(R.color.cyan_deep),
-                        colorResource(R.color.purple_200)
+                        colorResource(R.color.cyan_deep_medium),
+                        colorResource(R.color.purple_200_medium)
                     )
                     ),
                     fontWeight = FontWeight.SemiBold
