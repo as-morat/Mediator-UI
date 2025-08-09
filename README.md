@@ -2,7 +2,9 @@
 
 ## Introduction
 
-Mediator-UI is a clean and modern meditation app UI demo inspired by an amazing design from [Dribbble](https://dribbble.com/shots/15822493-Meditation-Mobile-App?utm_source=Clipboard_Shot&utm_campaign=mishadupliakin&utm_content=Meditation%20Mobile%20App&utm_medium=Social_Share). This project focuses on delivering a soothing and elegant user interface that encourages mindfulness and relaxation.
+## Introduction
+
+Mediator-UI is a clean and modern meditation app UI demo inspired by an amazing design from [Meditation App Design on Dribbble](https://dribbble.com/shots/15822493-Meditation-Mobile-App). This project focuses on delivering a soothing and elegant user interface that encourages mindfulness and relaxation.
 
 ---
 
