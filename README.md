@@ -10,7 +10,7 @@ This project focuses on delivering a soothing and elegant user interface that en
 ---
 
 <p align="center">
-   <img src="https://github.com/user-attachments/assets/60eaa3f0-8f82-4cab-9382-ac51b108dfa9" width="350" height="600"/> 
+   <img src="https://github.com/user-attachments/assets/60eaa3f0-8f82-4cab-9382-ac51b108dfa9" width="350"/> 
 </p>
 
 ---
