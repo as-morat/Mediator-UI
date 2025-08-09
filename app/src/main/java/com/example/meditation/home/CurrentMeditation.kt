@@ -69,7 +69,7 @@ fun CurrentMeditation() {
         Box(
             Modifier.size(40.dp)
                 .clickable{
-                    Toast.makeText(context,"Do Meditation", LENGTH_SHORT).show()
+                    Toast.makeText(context, "Do Meditation", LENGTH_SHORT).show()
                 }
                 .clip(CircleShape)
                 .background(Color.Magenta)

@@ -13,8 +13,11 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Brush
+import androidx.compose.ui.res.colorResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
+import com.example.meditation.R
 
 @OptIn(ExperimentalFoundationApi::class)
 @Composable
@@ -22,7 +25,14 @@ fun FeatureSection(features: List<Feature>) {
     Column(modifier = Modifier.fillMaxWidth()) {
         Text(
             text = "Features",
-            style = MaterialTheme.typography.titleLarge,
+            style = MaterialTheme.typography.titleLarge.copy(
+                brush = Brush.linearGradient(
+                            listOf(
+                    colorResource(R.color.orange_deep_dark),
+                    colorResource(R.color.teal_200)
+                ),
+                )
+            ),
             fontWeight = FontWeight.SemiBold,
             modifier = Modifier.padding(15.dp)
         )
