@@ -1,6 +1,6 @@
 # Mediator-UI
 
-![Mediator-UI Screenshot](https://github.com/user-attachments/assets/60eaa3f0-8f82-4cab-9382-ac51b108dfa9)
+<img src="https://github.com/user-attachments/assets/60eaa3f0-8f82-4cab-9382-ac51b108dfa9" width="360" />
 
 ## Introduction
 
@@ -18,4 +18,4 @@ Clone this repository and open it in your preferred IDE to explore or build upon
 
 ---
 
-Thanks for visiting! 🙏
+Thanks for visiting! 
