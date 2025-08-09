@@ -29,7 +29,7 @@ fun BottomMenu(
     Row(
         modifier = Modifier
             .fillMaxWidth()
-            .height(90.dp)
+            .height(80.dp)
             .background(
                 brush = Brush.linearGradient(
                     listOf(
@@ -52,7 +52,7 @@ fun BottomMenu(
                     painter = painterResource(id = item.iconId),
                     contentDescription = item.title,
                     tint = if (selectedItemIndex == index) activeHighlightColor else inactiveTextColor,
-                    modifier = Modifier.size(24.dp)
+                    modifier = Modifier.size(26.dp)
                 )
                 Text(
                     text = item.title,
