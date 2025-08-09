@@ -7,7 +7,7 @@ Mediator-UI is a clean and modern meditation app UI demo inspired by an amazing 
 ---
 
 <p align="center">
-  | <img src="https://github.com/user-attachments/assets/60eaa3f0-8f82-4cab-9382-ac51b108dfa9" width="300" height="350"/> |
+   <img src="https://github.com/user-attachments/assets/60eaa3f0-8f82-4cab-9382-ac51b108dfa9" width="350" height="400"/> 
 </p>
 
 ---
